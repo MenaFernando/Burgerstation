@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    background-image: url(../pictures/herobg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(0, 0, 0); /* Optional: Add a background to the navbar */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  
+  .navbar .logo .title {
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar nav ul li {
+    gap: 5px; /* Space between nav items */
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    gap: 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a.signup {
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  nav ul li a.order {
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #e00;
+    color: #fff;
+    margin-right: 70px;
+    
+  }
+
+  #order {
+    position: fixed;
+    top: 600px; /* Adjust this value to position the button vertically */
+    right:500px; /* Adjust this value to position the button from the right edge */
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #e00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #readmore {
+    position: fixed;
+    top: 600px; /* Adjust this value to position the button vertically below the Order button */
+    right:700px; /* Align with the Order button */
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; 
+    color: #fff; 
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Optional: Add a background to the navbar */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+  
+  
+.navbar .logo .title {
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar nav ul li {
+    gap: 5px; /* Space between nav items */
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    gap: 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a.signup {
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  nav ul li a.order {
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #e00;
+    color: #fff;
+    margin-right: 70px;
+    
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+.menu-item {
+    background-color: #ffcc00;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.menu-item h3 {
+    margin: 10px 0;
+}
+.menu-item p {
+    margin: 0;
+}
